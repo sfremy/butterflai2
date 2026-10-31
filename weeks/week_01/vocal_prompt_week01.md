@@ -16,8 +16,8 @@ conventions: time is `s`, years since a hemispheric cycle's 15° latitude crossi
 
 ### Student
 
-length: medium
-Terminology I can already use: Point process, event time, Poisson process
+length:
+Terminology I can already use:
 
 ### Instructions
 
