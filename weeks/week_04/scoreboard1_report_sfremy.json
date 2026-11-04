@@ -1,0 +1,119 @@
+{
+  "student": "sfremy",
+  "variant": "profile-skew_normal__width-amplitude",
+  "kind": "candidate",
+  "question": "the same, with ties reverted to the baseline value",
+  "spec": {
+    "shape": "gamma",
+    "pooling": "shared",
+    "drift": "exponential",
+    "profile": "skew_normal",
+    "width": "amplitude",
+    "gate": "none",
+    "emission": "threshold"
+  },
+  "fitted_parameters": 7,
+  "held_out_nll_per_hemicycle_year": -26.12359242953129,
+  "held_nll": -26.12359242953129,
+  "between_hemicycle_spread": 18.55703718244057,
+  "paired_vs_baseline": {
+    "mean": -0.6853941487237774,
+    "se": 0.2264463007202017,
+    "median": -0.5636089232063597,
+    "better": 16,
+    "of": 18
+  },
+  "ks_median": 0.04365459937264232,
+  "ks": 0.04365459937264232,
+  "ks_not_rejected": 10,
+  "count_error_percent": 10.546743322383398,
+  "protocol": {
+    "held_out_unit_contributed": [
+      "nothing (honest LOCO: T0 from fold drift, amplitude from area record)"
+    ],
+    "is_bound": false
+  },
+  "is_bound": false,
+  "fingerprint": {
+    "recipe": {
+      "mesh": [
+        201,
+        241
+      ],
+      "domain": [
+        0.0,
+        60.0
+      ],
+      "window": [
+        -6.0,
+        11.0
+      ],
+      "folds": [
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        21,
+        23
+      ],
+      "withheld": [
+        16,
+        20,
+        22
+      ],
+      "analysis_set": [
+        12,
+        23,
+        30.0
+      ],
+      "gauge": [
+        1.0,
+        1.0,
+        15.0
+      ],
+      "headline_amplitude": "area record"
+    },
+    "digest": "5e55384fbc54"
+  },
+  "per_hemicycle_nll": {
+    "12N": -2.2550622567576433,
+    "12S": -3.7565888877002984,
+    "13N": -9.994026797217069,
+    "13S": -18.922672340667198,
+    "14N": -2.0269615662376936,
+    "14S": -0.8670864002091053,
+    "15N": -14.760585086948728,
+    "15S": -16.08136186558573,
+    "17N": -35.050873051429136,
+    "17S": -36.74936480185876,
+    "18N": -53.739269421906954,
+    "18S": -46.35069539075154,
+    "19N": -60.09522274876605,
+    "19S": -45.12355102806194,
+    "21N": -34.24340071974772,
+    "21S": -34.31525553521461,
+    "23N": -26.43659492352747,
+    "23S": -29.456090908975565
+  },
+  "plausibility": {
+    "19N": {
+      "predicted": 1437.1785578873225,
+      "observed": 1590,
+      "centroid_model": 15.567268948152645,
+      "centroid_obs": 17.16069182389937,
+      "spread_model": 7.482576745557958,
+      "spread_obs": 8.507418494423913
+    },
+    "19S": {
+      "predicted": 1249.7140628926713,
+      "observed": 1121,
+      "centroid_model": 15.346490742489662,
+      "centroid_obs": 16.36842105263158,
+      "spread_model": 7.318139626636814,
+      "spread_obs": 7.604571117406902
+    }
+  }
+}
